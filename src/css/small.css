@@ -1,0 +1,102 @@
+html {
+    font-size: 100%;
+}
+
+header {
+    text-align: center;
+    color: #FFF;
+    background: #FFF url("../img/hero-image.jpg");
+    background-size: cover;
+    padding: 3em 0 0 0;
+}
+h1 {
+    margin: 0 0 70px 0;
+    font-size: 2rem;
+    line-height: 1;
+    font-weight: bold;
+}
+section.title {
+    font-size: 1rem;
+    line-height: 1.4;
+    margin: 2em auto 0;
+    font-weight: bold;
+}
+img.profile {
+    border-radius: 100%;
+    border: 5px solid #a3a3a3;
+    box-shadow: 0 0 60px #333;
+}
+
+header.header-fixed {
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    padding: 5px 90px;
+    z-index: 10;
+}
+header.header-fixed img.profile {
+    float: left;
+    width: 50px;
+    height: 50px;
+}
+header.header-fixed h1 {
+    font-size: 1rem;
+    float: left;
+    margin: 15px;
+}
+header.header-fixed section.title {
+    margin: 18px -1px;
+    font-size: 0.7rem;
+    float: left;
+}
+
+div#about-me {
+    background: #000000;
+    color: white;
+    padding: 70px 250px;
+}
+div#about-me p {
+    margin: 20px auto 50px auto;
+    text-align: justify;
+}
+div#about-me section.social {
+    padding: 20px 0 10px 0;
+    border-top: 1px solid grey;
+    display: table;
+    width: 100%;
+    text-align: center;
+}
+div#about-me section.social div {
+    display: inline-table;
+    padding: 0 15px;
+}
+
+div.content {
+    display: table;
+}
+
+section.slide {
+    transform: translateX(10%);
+    margin: auto;
+    width: 80%;
+}
+section.slide-anim {
+    transform: translateX(0%);
+    transition: transform 1s;
+}
+
+section.slide h2 {
+    width: 100%;
+    border-bottom: 6px #009cda solid;
+    opacity: 0;
+}
+section.slide p {
+    opacity: 0;
+    text-align: justify;
+}
+section.slide-anim p, section.slide-anim h2 {
+    opacity: 1;
+    transition: opacity 2s;
+}
+
+

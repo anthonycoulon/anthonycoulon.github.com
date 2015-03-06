@@ -1,0 +1,10 @@
+@media only screen and (min-width: 64.063em) {
+    html {
+        font-size: 130%;
+    }
+
+    header, .about, .clients {
+        padding-left: calc( ( 100% - 1000px ) / 2 );
+        padding-right: calc( ( 100% - 1000px ) / 2 );
+    }
+}
