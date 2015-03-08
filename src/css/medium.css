@@ -7,4 +7,11 @@
         padding-left: calc( ( 100% - 620px ) / 2 );
         padding-right: calc( ( 100% - 620px ) / 2 );
     }
+
+    header.home h1 {
+        margin: 0 0 55px 0;
+        font-size: 2rem;
+        line-height: 1;
+        font-weight: bold;
+    }
 }

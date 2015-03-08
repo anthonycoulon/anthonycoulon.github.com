@@ -3,15 +3,22 @@ html {
 }
 
 header {
-    text-align: center;
-    color: #FFF;
     background: #FFF url("../img/hero-image.jpg");
     background-size: cover;
-    padding: 3em 0 0 0;
+    color: #FFF;
 }
-h1 {
-    margin: 0 0 70px 0;
-    font-size: 2rem;
+header.home {
+    text-align: center;
+    padding: 3em 0 0 0;
+    transition : -webkit-filter 1s;
+    -webkit-filter: blur(0px);
+}
+header.home.blur {
+    -webkit-filter: blur(5px);
+}
+header.home h1 {
+    margin: 0 0 50px 0;
+    font-size: 1.5rem;
     line-height: 1;
     font-weight: bold;
 }
@@ -25,35 +32,57 @@ img.profile {
     border-radius: 100%;
     border: 5px solid #a3a3a3;
     box-shadow: 0 0 60px #333;
+    width: 150px;
+    height: 150px;
+}
+header.home menu {
+    margin-top: 4%;
+    padding: 0;
+}
+header.home menu a {
+    display: block;
+    margin-top: 20px;
 }
 
-header.header-fixed {
+header.header-nav {
     position: fixed;
     height: 60px;
     width: 100%;
-    padding: 5px 90px;
     z-index: 10;
+    top: 0;
+    display: none;
 }
-header.header-fixed img.profile {
+header.nav-show {
+    display: block;
+}
+header.header-nav menu {
+    display: table;
+}
+header.header-nav menu a {
+    display: inline-table;
+    margin-left: 10px;
+}
+header.header-nav img.profile {
     float: left;
     width: 50px;
     height: 50px;
+    border: none;
 }
-header.header-fixed h1 {
+header.header-nav h1 {
     font-size: 1rem;
     float: left;
     margin: 15px;
-}
-header.header-fixed section.title {
-    margin: 18px -1px;
-    font-size: 0.7rem;
-    float: left;
 }
 
 div#about-me {
     background: #000000;
     color: white;
-    padding: 70px 250px;
+    padding: 70px 25%;
+    -webkit-filter: blur(5px);
+    transition : -webkit-filter 2s;
+}
+div#about-me.no-blur {
+    -webkit-filter: blur(0px);
 }
 div#about-me p {
     margin: 20px auto 50px auto;
@@ -70,15 +99,25 @@ div#about-me section.social div {
     display: inline-table;
     padding: 0 15px;
 }
+a.symbol:before {
+    content: attr(title);
+    margin-right: 0.3em;
+    font-size: 3rem;
+}
 
 div.content {
     display: table;
 }
 
 section.slide {
-    transform: translateX(10%);
     margin: auto;
-    width: 80%;
+    width: 70%;
+}
+section.slide_a {
+    transform: translateX(10%);
+}
+section.slide_b {
+    transform: translateX(-10%);
 }
 section.slide-anim {
     transform: translateX(0%);
@@ -99,4 +138,7 @@ section.slide-anim p, section.slide-anim h2 {
     transition: opacity 2s;
 }
 
-
+footer {
+    padding: 30px;
+    background-color: black;
+}

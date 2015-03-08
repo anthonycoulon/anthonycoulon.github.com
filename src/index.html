@@ -12,14 +12,30 @@
     <title></title>
 </head>
 <body>
-    <header>
+    <header id="home" class="home">
         <h1>
-            hello i'm Anthony Coulon
+            hello I am ...<br/>Anthony Coulon
         </h1>
-        <img width="250px" height="250px" class="profile" src="img/photos_profil.JPG" alt=""/>
+        <img class="profile" src="img/photos_profil.JPG" alt=""/>
         <section class="title">
             Consultant Java / Scrum Master
         </section>
+        <menu>
+            <a href="#home">Home</a>
+            <a href="#about-me">About me</a>
+            <a href="#content">Content</a>
+        </menu>
+    </header>
+    <header class="header-nav">
+        <img class="profile" src="img/photos_profil.JPG" alt=""/>
+        <h1>
+            Anthony Coulon
+        </h1>
+        <menu>
+            <a href="#home">Home</a>
+            <a href="#about-me">About me</a>
+            <a href="#content">Content</a>
+        </menu>
     </header>
     <div id="about-me">
         <p>
@@ -32,45 +48,45 @@
         </section>
         <section class="social">
             <div>
-                <img src="img/facebook.png" alt=""/>
+                <a href="" class="symbol" title="circlefacebook"></a>
             </div>
             <div>
-                <img src="img/twitter.png" alt=""/>
+                <a href="" class="symbol" title="circletwitterbird"></a>
             </div>
             <div>
-                <img src="img/g+.png" alt=""/>
+                <a href="" class="symbol" title="circlegoogleplus"></a>
             </div>
             <div>
-                <img src="img/linkedin.png" alt=""/>
+                <a href="" class="symbol" title="circlelinkedin"></a>
             </div>
             <div>
-                <img src="img/Github.png" alt=""/>
+                <a href="" class="symbol" title="circlegithubalt"></a>
             </div>
         </section>
     </div>
-    <div class="content">
-        <section class="slide">
+    <div id="content" class="content">
+        <section class="slide slide_a">
             <h2>Experiences 1</h2>
             <p>
                 Vbi curarum abiectis ponderibus aliis tamquam nodum et codicem difficillimum Caesarem convellere nisu valido cogitabat, eique deliberanti cum proximis clandestinis conloquiis et nocturnis qua vi, quibusve commentis id fieret, antequam effundendis rebus pertinacius incumberet confidentia, acciri mollioribus scriptis per simulationem tractatus publici nimis urgentis eundem placuerat Gallum, ut auxilio destitutus sine ullo interiret obstaculo.
                 <br/>Vbi curarum abiectis ponderibus aliis tamquam nodum et codicem difficillimum Caesarem convellere nisu valido cogitabat, eique deliberanti cum proximis clandestinis conloquiis et nocturnis qua vi, quibusve commentis id fieret, antequam effundendis rebus pertinacius incumberet confidentia, acciri mollioribus scriptis per simulationem tractatus publici nimis urgentis eundem placuerat Gallum, ut auxilio destitutus sine ullo interiret obstaculo.
             </p>
         </section>
-        <section class="slide">
+        <section class="slide slide_b">
             <h2>Experiences 2</h2>
             <p>
                 Vbi curarum abiectis ponderibus aliis tamquam nodum et codicem difficillimum Caesarem convellere nisu valido cogitabat, eique deliberanti cum proximis clandestinis conloquiis et nocturnis qua vi, quibusve commentis id fieret, antequam effundendis rebus pertinacius incumberet confidentia, acciri mollioribus scriptis per simulationem tractatus publici nimis urgentis eundem placuerat Gallum, ut auxilio destitutus sine ullo interiret obstaculo.
                 <br/>Vbi curarum abiectis ponderibus aliis tamquam nodum et codicem difficillimum Caesarem convellere nisu valido cogitabat, eique deliberanti cum proximis clandestinis conloquiis et nocturnis qua vi, quibusve commentis id fieret, antequam effundendis rebus pertinacius incumberet confidentia, acciri mollioribus scriptis per simulationem tractatus publici nimis urgentis eundem placuerat Gallum, ut auxilio destitutus sine ullo interiret obstaculo.
             </p>
         </section>
-        <section class="slide">
+        <section class="slide slide_a">
             <h2>Experiences 3</h2>
             <p>
                 Vbi curarum abiectis ponderibus aliis tamquam nodum et codicem difficillimum Caesarem convellere nisu valido cogitabat, eique deliberanti cum proximis clandestinis conloquiis et nocturnis qua vi, quibusve commentis id fieret, antequam effundendis rebus pertinacius incumberet confidentia, acciri mollioribus scriptis per simulationem tractatus publici nimis urgentis eundem placuerat Gallum, ut auxilio destitutus sine ullo interiret obstaculo.
                 <br/>Vbi curarum abiectis ponderibus aliis tamquam nodum et codicem difficillimum Caesarem convellere nisu valido cogitabat, eique deliberanti cum proximis clandestinis conloquiis et nocturnis qua vi, quibusve commentis id fieret, antequam effundendis rebus pertinacius incumberet confidentia, acciri mollioribus scriptis per simulationem tractatus publici nimis urgentis eundem placuerat Gallum, ut auxilio destitutus sine ullo interiret obstaculo.
             </p>
         </section>
-        <section class="slide">
+        <section class="slide slide_b">
             <h2>Experiences 4</h2>
             <p>
                 Vbi curarum abiectis ponderibus aliis tamquam nodum et codicem difficillimum Caesarem convellere nisu valido cogitabat, eique deliberanti cum proximis clandestinis conloquiis et nocturnis qua vi, quibusve commentis id fieret, antequam effundendis rebus pertinacius incumberet confidentia, acciri mollioribus scriptis per simulationem tractatus publici nimis urgentis eundem placuerat Gallum, ut auxilio destitutus sine ullo interiret obstaculo.
@@ -78,6 +94,9 @@
             </p>
         </section>
     </div>
+    <footer>
+
+    </footer>
     <script type="text/javascript">
         new Cv().animate();
     </script>
