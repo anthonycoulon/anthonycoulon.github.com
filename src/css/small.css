@@ -107,6 +107,7 @@ a.symbol:before {
 
 div.content {
     display: table;
+    padding: 5% 0;
 }
 
 section.slide {
@@ -132,6 +133,8 @@ section.slide h2 {
 section.slide p {
     opacity: 0;
     text-align: justify;
+    border-bottom: 1px solid #ddd;
+    padding: 0 0 20px 0;
 }
 section.slide-anim p, section.slide-anim h2 {
     opacity: 1;

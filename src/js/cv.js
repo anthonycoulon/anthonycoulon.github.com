@@ -3,13 +3,12 @@ Cv = function() {};
 Cv.prototype.animate = function() {
 	$('header.home').css('height', $(window).height());
 	var heightBeforeSlides=$('header.home').height()+$('#about-me').height();
-	var nbElemShown=0;
-	var that=this;
+    var nbElemShownBeforeSlides = 0;
 
-	var _ret=this.animSlideByHeight(heightBeforeSlides, nbElemShown);
+    var _ret = this.animSlideByHeight(heightBeforeSlides, nbElemShownBeforeSlides);
 
 	var slides = $('.slide');
-	$(window).scroll(function() {
+    $(window).scroll(bind(this, function () {
 
         if($(window).scrollTop()>$('header.home').height()/5) {
             $('#about-me').addClass('no-blur');
@@ -22,7 +21,6 @@ Cv.prototype.animate = function() {
             _ret.heightSlides+=$(slides[_ret.nbElemShown]).height();
             $(slides[_ret.nbElemShown]).addClass('slide-anim');
             _ret.nbElemShown++;
-            console.log(_ret.nbElemShown);
         }
 
         if($(window).scrollTop()>$('header.home').height()) {
@@ -33,10 +31,15 @@ Cv.prototype.animate = function() {
 
         if($(window).scrollTop()==0) {
             $('.slide').removeClass('slide-anim');
-            _ret = that.animSlideByHeight(heightBeforeSlides, nbElemShown);
+            _ret = this.animSlideByHeight(heightBeforeSlides, nbElemShownBeforeSlides);
             $('#about-me').removeClass('no-blur');
         }
-	});
+    }));
+
+    $('.content_link').click(function () {
+        $('.slide').addClass('slide-anim');
+        _ret.nbElemShown = $('.slide-anim').length;
+    });
 };
 
 Cv.prototype.animSlideByHeight = function (heightSlides, nbElemShown) {
