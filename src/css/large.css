@@ -3,7 +3,7 @@
         font-size: 130%;
     }
 
-    header {
+    header.home {
         padding-left: calc( ( 100% - 1000px ) / 2 );
         padding-right: calc( ( 100% - 1000px ) / 2 );
     }
@@ -18,5 +18,21 @@
         font-size: 2rem;
         line-height: 1;
         font-weight: bold;
+    }
+
+    header.header-nav div.anim {
+        transform: translateY(-35%);
+    }
+
+    header.header-nav h1 {
+        font-size: 1rem;
+        float: left;
+        padding: 15px;
+        margin: 0;
+        display: inherit;
+    }
+
+    a.symbol:before {
+        font-size: 3rem;
     }
 }

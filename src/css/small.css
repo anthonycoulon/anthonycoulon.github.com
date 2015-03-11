@@ -3,11 +3,11 @@ html {
 }
 
 header {
-    background: #FFF url("../img/hero-image.jpg");
-    background-size: cover;
     color: #FFF;
 }
 header.home {
+    background: #FFF url("../img/hero-image.jpg");
+    background-size: cover;
     text-align: center;
     padding: 3em 0 0 0;
     transition : -webkit-filter 1s;
@@ -50,13 +50,28 @@ header.header-nav {
     width: 100%;
     z-index: 10;
     top: 0;
-    display: none;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+header.header-nav div {
+    background: #FFF url("../img/hero-image.jpg");
+    background-size: cover;
+    transition: transform 0.5s;
+    transform: translateY(100%);
+    height: 100%;
+    position: relative;
+}
+
+header.header-nav div.anim {
+    transform: translateY(-26%);
 }
 header.nav-show {
-    display: block;
+    opacity: 1;
 }
 header.header-nav menu {
     display: table;
+    padding: 15px;
 }
 header.header-nav menu a {
     display: inline-table;
@@ -67,11 +82,10 @@ header.header-nav img.profile {
     width: 50px;
     height: 50px;
     border: none;
+    margin: 5px;
 }
 header.header-nav h1 {
-    font-size: 1rem;
-    float: left;
-    margin: 15px;
+    display: none;
 }
 
 div#about-me {
@@ -102,7 +116,7 @@ div#about-me section.social div {
 a.symbol:before {
     content: attr(title);
     margin-right: 0.3em;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 div.content {

@@ -25,8 +25,10 @@ Cv.prototype.animate = function() {
 
         if($(window).scrollTop()>$('header.home').height()) {
             $('.header-nav').addClass('nav-show');
+	        $('.header-nav div').addClass('anim');
         }else {
             $('.header-nav').removeClass('nav-show');
+	        $('.header-nav div').removeClass('anim');
         }
 
         if($(window).scrollTop()==0) {
