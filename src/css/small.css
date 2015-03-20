@@ -6,7 +6,7 @@ header {
     color: #FFF;
 }
 header.home {
-    background: #FFF url("../img/hero-image.jpg");
+    background: #FFF url("../img/board.jpg");
     background-size: cover;
     text-align: center;
     padding: 3em 0 0 0;
@@ -55,7 +55,7 @@ header.header-nav {
 }
 
 header.header-nav div {
-    background: #FFF url("../img/hero-image.jpg");
+    background: black;
     background-size: cover;
     transition: transform 0.5s;
     transform: translateY(100%);
