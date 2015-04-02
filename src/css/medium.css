@@ -30,4 +30,9 @@
     a.symbol:before {
         font-size: 3rem;
     }
+
+    section.slide img.logo_experience {
+        margin: 5px 15px 0 0;
+        width: 60px;
+    }
 }

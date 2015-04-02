@@ -6,10 +6,10 @@ header {
     color: #FFF;
 }
 header.home {
-    background: #FFF url("../img/board.jpg");
+    background: url("../img/board.jpg");
     background-size: cover;
     text-align: center;
-    padding: 3em 0 0 0;
+    padding: 3em 0 15px 0;
     transition : -webkit-filter 1s;
     -webkit-filter: blur(0px);
 }
@@ -149,6 +149,12 @@ section.slide p {
     text-align: justify;
     border-bottom: 1px solid #ddd;
     padding: 0 0 20px 0;
+}
+
+section.slide img.logo_experience {
+    float: left;
+    margin: 0 10px 0 0;
+    width: 50px;
 }
 section.slide-anim p, section.slide-anim h2 {
     opacity: 1;

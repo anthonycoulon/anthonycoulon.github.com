@@ -6,6 +6,7 @@
     header.home {
         padding-left: calc( ( 100% - 1000px ) / 2 );
         padding-right: calc( ( 100% - 1000px ) / 2 );
+        padding-bottom: 0;
     }
 
     header.home img.profile {
@@ -34,5 +35,10 @@
 
     a.symbol:before {
         font-size: 3rem;
+    }
+
+    section.slide img.logo_experience {
+        margin: 5px 15px 0 0;
+        width: 75px;
     }
 }
