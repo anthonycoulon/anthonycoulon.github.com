@@ -1,7 +1,7 @@
 Cv = function() {};
 
 Cv.prototype.animate = function() {
-	$('header.home').css('height', $(window).height());
+	$('header.home').css('min-height', $(window).height());
 	var heightBeforeSlides=$('header.home').height()+$('#about-me').height();
     var nbElemShownBeforeSlides = 0;
 
