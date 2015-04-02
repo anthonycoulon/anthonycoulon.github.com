@@ -6,6 +6,8 @@
     header.home {
         padding-left: calc( ( 100% - 620px ) / 2 );
         padding-right: calc( ( 100% - 620px ) / 2 );
+        background-size: cover;
+        background-position: inherit;
     }
 
     header.home h1 {
@@ -27,8 +29,38 @@
         display: inherit;
     }
 
+    div#about-me {
+        padding: 70px 15%;
+    }
+
     a.symbol:before {
         font-size: 3rem;
+    }
+
+    section.slide {
+        width: 85%;
+    }
+
+    section.slide_a {
+        transform: translateX(10%);
+    }
+
+    section.slide_b {
+        transform: translateX(-10%);
+    }
+
+    section.slide-anim {
+        transform: translateX(0%);
+        transition: transform 1s;
+    }
+
+    section.slide p, section.slide h2 {
+        opacity: 0;
+    }
+
+    section.slide-anim p, section.slide-anim h2 {
+        opacity: 1;
+        transition: opacity 2s;
     }
 
     section.slide img.logo_experience {

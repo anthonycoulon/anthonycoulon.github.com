@@ -1,13 +1,12 @@
 html {
     font-size: 100%;
 }
-
 header {
     color: #FFF;
 }
 header.home {
     background: url("../img/board.jpg");
-    background-size: cover;
+    background-position: center;
     text-align: center;
     padding: 3em 0 15px 0;
     transition : -webkit-filter 1s;
@@ -49,7 +48,7 @@ header.header-nav {
     height: 60px;
     width: 100%;
     z-index: 10;
-    top: 0;
+    top: -1px;
     opacity: 0;
     transition: opacity 0.5s;
 }
@@ -91,7 +90,7 @@ header.header-nav h1 {
 div#about-me {
     background: #000000;
     color: white;
-    padding: 70px 25%;
+    padding: 70px 5%;
     -webkit-filter: blur(5px);
     transition : -webkit-filter 2s;
 }
@@ -126,26 +125,16 @@ div.content {
 
 section.slide {
     margin: auto;
-    width: 70%;
-}
-section.slide_a {
-    transform: translateX(10%);
-}
-section.slide_b {
-    transform: translateX(-10%);
-}
-section.slide-anim {
-    transform: translateX(0%);
-    transition: transform 1s;
+    width: 90%;
 }
 
 section.slide h2 {
     width: 100%;
     border-bottom: 6px #009cda solid;
-    opacity: 0;
+    opacity: 1;
 }
 section.slide p {
-    opacity: 0;
+    opacity: 1;
     text-align: justify;
     border-bottom: 1px solid #ddd;
     padding: 0 0 20px 0;
@@ -155,10 +144,6 @@ section.slide img.logo_experience {
     float: left;
     margin: 0 10px 0 0;
     width: 50px;
-}
-section.slide-anim p, section.slide-anim h2 {
-    opacity: 1;
-    transition: opacity 2s;
 }
 
 footer {
