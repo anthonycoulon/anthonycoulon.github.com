@@ -5,7 +5,7 @@ header {
     color: #FFF;
 }
 header.home {
-    background: url("../img/board.jpg");
+    background-image: url("../img/board.jpg");
     background-position: center;
     text-align: center;
     padding: 3em 0 15px 0;
