@@ -13,164 +13,179 @@
     <title></title>
 </head>
 <body>
-    <header id="home" class="home">
-        <h1>
-            hello I am ...<br/>Anthony Coulon
-        </h1>
+<header id="home" class="home">
+    <h1>
+        hello I am ...<br/>Anthony Coulon
+    </h1>
+    <img class="profile" src="src/img/photos_profil.JPG" alt=""/>
+    <section class="title">
+        Consultant Java / Scrum Master
+    </section>
+    <menu>
+        <a href="#home">Accueil</a>
+        <a href="#about-me">A propos de moi</a>
+        <a href="#content" class="content_link">Exp&eacute;riences</a>
+    </menu>
+</header>
+<header class="header-nav">
+    <div>
         <img class="profile" src="src/img/photos_profil.JPG" alt=""/>
-        <section class="title">
-            Consultant Java / Scrum Master
-        </section>
+
+        <h1>
+            Anthony Coulon
+        </h1>
         <menu>
             <a href="#home">Accueil</a>
-            <a href="#about-me">A propos de moi</a>
+            <a href="#about-me">Moi</a>
             <a href="#content" class="content_link">Exp&eacute;riences</a>
         </menu>
-    </header>
-    <header class="header-nav">
+    </div>
+</header>
+<div id="about-me">
+    <p>
+        Je me prénome Anthony Coulon et je suis consultant / développeur en informatique.
+        <br/>Je suis employé depuis octobre 2012 dans la société Valtech France en tant qu'ingénieur d'étude.
+        J'y occupe les rôles de développeur et de Scrum master dans le pôle Java.
+        <br/>Passioné d'informatique, de téchnologies et d'open source mais aussi de sport et de musique, dont je
+        pratique la guitare élètrique depuis quelques années.
+    </p>
+    <section class="competence">
+        <h3>Compétences</h3>
+        <ul>
+            <li>Langages : JAVA, CSS, HTML, JavaScript, SQL</li>
+            <li>Framework : Spring (MVC, IoC, Security, Data), Hibernate, JPA, JQuery</li>
+            <li>BDD : MySQL, HSQL</li>
+            <li>Méthodes Agiles : Scrum, XP, Kanban, Lean Startup</li>
+            <li>Outils : Intellij, Eclipse, Jenkins, Git, Maven</li>
+        </ul>
+    </section>
+    <section class="formation">
+        <h3>Formations</h3>
+        <ul>
+            <li>
+                Initiation au CSS 3, à Valtech Training
+            </li>
+            <li>
+                Ingénieur en informatique, école d'ingénieur Sup Galilée de Paris 13
+            </li>
+        </ul>
+    </section>
+    <section>
+        <h2>
+            <a href="src/doc/cv.pdf">
+                <table>
+                    <tr>
+                        <td class="symbol" title="appstorealt"></td>
+                        <td>
+                            Télécharger CV
+                        </td>
+                    </tr>
+                </table>
+            </a>
+        </h2>
+    </section>
+    <section class="social">
         <div>
-            <img class="profile" src="src/img/photos_profil.JPG" alt=""/>
-
-            <h1>
-                Anthony Coulon
-            </h1>
-            <menu>
-                <a href="#home">Accueil</a>
-                <a href="#about-me">Moi</a>
-                <a href="#content" class="content_link">Exp&eacute;riences</a>
-            </menu>
+            <a href="http://www.facebook.com/Anthony.Coulon" class="symbol" title="circlefacebook"></a>
         </div>
-    </header>
-    <div id="about-me">
+        <div>
+            <a href="http://twitter.com/anthonycoulon" class="symbol" title="circletwitterbird"></a>
+        </div>
+        <div>
+            <a href="http://plus.google.com/104732709155659543619" class="symbol" title="circlegoogleplus"></a>
+        </div>
+        <!--<div>-->
+        <!--<a href="" class="symbol" title="circlelinkedin"></a>-->
+        <!--</div>-->
+        <div>
+            <a href="https://github.com/anthonycoulon/" class="symbol" title="circlegithubalt"></a>
+        </div>
+    </section>
+</div>
+<div id="content" class="content">
+    <section class="slide slide_a">
+        <h2>Isis : Portail de la Société Générale</h2>
+
         <p>
-            Je me prénome Anthony Coulon et je suis consultant / développeur en informatique.
-            <br/>Je suis employé depuis octobre 2012 dans la société Valtech France en tant qu'ingénieur d'étude.
-            J'y occupe les rôles de développeur et de Scrum master dans le pôle Java.
-            <br/>Passioné d'informatique, de téchnologies et d'open source mais aussi de sport et de musique, dont je
-            pratique la guitare élètrique depuis quelques années.
+            <img src="src/img/societe-generale.gif" alt="" class="logo_experience"/>
+            Isis est un portail interne destiné aux agents de la Société Générale. Le but est d'accéder à
+            différentes applications ou modules afin de réaliser plusieurs tâches comme par exemple du pilotage
+            d'indicateurs ou de la saisie d'informations.
+            Ces projets sont réalisés dans le centre Agile mis en place conjointement entre Valtech et SIOP, service
+            de la Société Générale. En effet nous travaillons en suivant les méthodes Agiles Scrum et Kanban. Dans
+            cette équipe j'y occupe les rôles
+            de Scrum Master mais aussi de développeur.
+            <br/>
+            La stack technique est classique. Du côté backend nous retrouvons Java 7, Spring (MVC, Security, IoC,
+            Data, Batch), Hibernate/JPA. Pour le frontend nous avons choisi d'utiliser JQuery et des API "maison"
+            développées pour un besoin propre au projet comme par exemple de la soumission de formulaires et la
+            gestion des erreurs ou encore des composants graphiques.
+            De l'intégration continue avec Jenkins et pour gérer les versions nous utilisons GIT.
         </p>
-        <section class="competence">
-            <h3>Compétences</h3>
-            <ul>
-                <li>Langages : JAVA, CSS, HTML, JavaScript, SQL</li>
-                <li>Framework : Spring (MVC, IoC, Security, Data), Hibernate, JPA, JQuery</li>
-                <li>BDD : MySQL, HSQL</li>
-                <li>Méthodes Agiles : Scrum, XP, Kanban, Lean Startup</li>
-                <li>Outils : Intellij, Eclipse, Jenkins, Git, Maven</li>
-            </ul>
-        </section>
-        <section class="formation">
-            <h3>Formations</h3>
-            <ul>
-                <li>
-                    Initiation au CSS 3, à Valtech Training
-                </li>
-                <li>
-                    Ingénieur en informatique, école d'ingénieur Sup Galilée de Paris 13
-                </li>
-            </ul>
-        </section>
-        <!--<section>-->
-        <!--<h2>-->
-        <!--<a href="#">Download CV</a>-->
-        <!--</h2>-->
-        <!--</section>-->
-        <section class="social">
-            <div>
-                <a href="http://www.facebook.com/Anthony.Coulon" class="symbol" title="circlefacebook"></a>
-            </div>
-            <div>
-                <a href="http://twitter.com/anthonycoulon" class="symbol" title="circletwitterbird"></a>
-            </div>
-            <div>
-                <a href="http://plus.google.com/104732709155659543619" class="symbol" title="circlegoogleplus"></a>
-            </div>
-            <!--<div>-->
-            <!--<a href="" class="symbol" title="circlelinkedin"></a>-->
-            <!--</div>-->
-            <div>
-                <a href="https://github.com/anthonycoulon/" class="symbol" title="circlegithubalt"></a>
-            </div>
-        </section>
+    </section>
+    <section class="slide slide_b">
+        <h2>Valtech Bet</h2>
+
+        <p>
+            <img src="src/img/valtech.png" alt="" class="logo_experience"/>
+            Pour la coupe du monde 2014, nous avons décidé, deux collègues et moi même de réaliser une petite
+            application web pour saisir des pronostics et marquer des points en fonction des résultats. Le but
+            était d'avoir un classement des meilleurs pronostiqueurs
+            et de créer une animation autour de cet événement chez Valtech. Nous avons réalisé ce projet avec une
+            approche Lean Startup dans le but de valider rapidement notre idée de produit.
+            <br/>C'est pour cela que nous sommes partis sur une stack technique maîtrisée avec Java, Spring,
+            Hibernate, JQuery et
+            Bootstrap pour le côté responsive design.
+
+        </p>
+    </section>
+    <section class="slide slide_a">
+        <h2>Lafarge Customer Web Portal</h2>
+
+        <p>
+            <img src="src/img/lafarge.jpg" alt="" class="logo_experience"/>
+            LCWP est une application web permettant aux clients de Lafarge de passer des commandes de matériaux, de
+            suivre les livraisons et de consulter ses factures. Le but est de faciliter et d'automatiser les
+            échanges entre clients et commerciaux.
+            Il a été développé pour différents pays comme par exemple la France, l'Allemagne ou encore la Chine...
+            <br/>Une équipe Scrum utilisant une stack technique tournant autour de Java 6 et regroupant les
+            habituels Spring, Hibernate et JQuery UI pour le front. Intégration continue avec Jenkins et gestion des
+            versions avec GIT.
+        </p>
+    </section>
+    <section class="slide slide_b">
+        <h2>Site d'apprentissage en ligne</h2>
+
+        <p>
+            <img src="src/img/excilys.png" alt="" class="logo_experience"/>
+            Développement d'un site d'apprentissage en ligne, de consultation de cours dans différents formats, PDF,
+            Power Point, Vidéo, etc... Mais aussi d'un moteur de recherche sur Google, le blog de la société et dans
+            les contenus des cours. Le but premier était de voir les possibilités pour refaire le site existant
+            développé en Flex
+            avec des technologies plus modernes.
+            <br/>L'équipe était formée de deux développeurs et d'un Scrum Master. Nous avons implémenté ce site en
+            GWT avec Java 6 et Spring IoC et Security. Nous avions aussi décidé d'utiliser une base MongoDB dans le
+            but de faire de la RD sur le sujet.
+        </p>
+    </section>
+</div>
+<footer>
+    <div>
+        <a href="#home">Accueil</a>
+        &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+        <a href="#about-me">A propos de moi</a>
+        &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+        <a href="#content">Expériences</a>
     </div>
-    <div id="content" class="content">
-        <section class="slide slide_a">
-            <h2>Isis : Portail de la Société Générale</h2>
-
-            <p>
-                <img src="src/img/societe-generale.gif" alt="" class="logo_experience"/>
-                Isis est un portail interne déstiné aux agents de la Société Générale. Le but est d'accéder à
-                différentes applications ou modules afin de réaliser plusieurs tâches comme par exemple du pilotage
-                d'indicateurs ou de la saisie d'informations.
-                Ces projets sont réalisés dans le centre Agile mis en place conjointement entre Valtech et SIOP, service
-                de la Société Générale. En effet nous travaillons en suivant les méthodes Agiles Scrum et Kanban. Dans
-                cette équipe j'y occupe les rôles
-                de Scrum Master mais aussi de développeur.
-                <br/>
-                La stack technique est classique. Du côté backend nous retrouvons Java 7, Spring (MVC, Security, IoC,
-                Data, Batch), Hibernate/JPA. Pour le frontend nous avons choisi d'utiliser JQuery et des API "maison"
-                développées pour un besoin propore au projet comme par exemple de la soumission de formulaires et la
-                gestion des erreurs ou encore des composants graphiques.
-                De l'intégration continue avec Jenkins et pour gérer les versions nous utilisons GIT.
-            </p>
-        </section>
-        <section class="slide slide_b">
-            <h2>Valtech Bet</h2>
-
-            <p>
-                <img src="src/img/valtech.png" alt="" class="logo_experience"/>
-                Pour la coupe du monde 2014, nous avons décidé, deux collègues et moi même de réaliser une petite
-                application web pour saisir des pronotiques et marquer des points en fonction des résultats. Le but
-                était d'avoir un classement des meilleurs pronostiqueurs
-                et de créer une animation autour de cet événement chez Valtech. Nous avons réalisé ce projet avec une
-                approche Lean Startup dans le but de valider rapidement notre idée de produit.
-                <br/>C'est pour cela que nous sommes partis sur une stack technique maîtrisée avec Java, Spring,
-                Hibernate, JQuery et
-                Bootstrap pour le côté responsive design.
-
-            </p>
-        </section>
-        <section class="slide slide_a">
-            <h2>Lafarge Customer Web Portal</h2>
-
-            <p>
-                <img src="src/img/lafarge.jpg" alt="" class="logo_experience"/>
-                LCWP est une application web permettant aux clients de Lafarge de passer des commandes de matériaux, de
-                suivre les livraisons et de consulter ses factures. Le but est de faciliter et d'automatiser les
-                échanges entre clients et commerciaux.
-                Il a été développé pour différents pays comme par exemple la France, l'Allemagne ou encore la Chine...
-                <br/>Une équipe Scrum utilisant une stack technique tournant autour de Java 6 et regroupant les
-                habituels Spring, Hibernate et JQuery UI pour le front. Intégration continue avec Jenkins et gestion des
-                versions avec GIT.
-            </p>
-        </section>
-        <section class="slide slide_b">
-            <h2>Site d'apprentissage en ligne</h2>
-
-            <p>
-                <img src="src/img/excilys.png" alt="" class="logo_experience"/>
-                Développement d'un site d'apprentissage en ligne, de consultation de cours dans différents formats, PDF,
-                Power Point, Video, etc... Mais aussi d'un moteur de recherche sur Google, le blog de la société et dans
-                les contenus des cours. Le but premier était de voir les possibilités pour refaire le site existant
-                développé en Flex
-                avec des technologies plus modernes.
-                <br/>L'équipe était formée de deux développeurs et d'un Scrum Master. Nous avons implémenté ce site en
-                GWT avec Java 6 et Spring IoC et Security. Nous avions aussi décidé d'utiliser une base MongoDB dans le
-                but de faire de la RD sur le sujet.
-            </p>
-        </section>
+    <div>
+        <a href="src/doc/cv.pdf">Télécharger CV</a>
     </div>
-    <footer>
-        <div>
-            <a href="#home">Accueil</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#about-me">A propos de moi</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a
-                href="#content">Expériences</a>
-        </div>
-        <div>
-            &copy; Anthony Coulon
-        </div>
-    </footer>
-    <script type="text/javascript">
-        new Cv().animate();
-    </script>
+    <div>
+        &copy; Anthony Coulon
+    </div>
+</footer>
+<script type="text/javascript">
+    new Cv().animate();
+</script>
 </body>
 </html>

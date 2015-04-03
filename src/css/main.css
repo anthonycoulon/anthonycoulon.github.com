@@ -29,7 +29,7 @@ div.content {
     font-style: normal;
 }
 
-.symbol, a.symbol:before {
+.symbol, .symbol:before {
     font-family: 'Mono Social Icons Font';
     -webkit-text-rendering: optimizeLegibility;
     -moz-text-rendering: optimizeLegibility;

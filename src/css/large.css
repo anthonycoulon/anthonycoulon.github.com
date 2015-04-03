@@ -39,7 +39,7 @@
         padding: 70px 25%;
     }
 
-    a.symbol:before {
+    .symbol:before {
         font-size: 3rem;
     }
 
