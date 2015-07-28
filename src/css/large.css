@@ -9,6 +9,7 @@
         padding-bottom: 0;
         background-size: cover;
         background-position: inherit;
+        transition: -webkit-filter 0.5s;
     }
 
     header.home img.profile {
@@ -37,6 +38,7 @@
 
     div#about-me {
         padding: 70px 25%;
+        transition: -webkit-filter 0.8s;
     }
 
     .symbol:before {
