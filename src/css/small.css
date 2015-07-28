@@ -110,7 +110,7 @@ div#about-me section.social {
 }
 div#about-me section.social div {
     display: inline-table;
-    padding: 0 15px;
+    padding: 0 10px;
 }
 
 td.symbol:before {
@@ -120,7 +120,15 @@ td.symbol:before {
 .symbol:before {
     content: attr(title);
     margin-right: 0.3em;
-    font-size: 2rem;
+    font-size: 1.7rem;
+}
+
+.symbol-download:before {
+    font-size: 1rem;
+}
+
+.symbol-download {
+    margin-right: 0.5em;
 }
 
 div.content {

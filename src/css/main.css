@@ -18,29 +18,26 @@ div.content {
 }
 
 @font-face {
-    font-family: 'Mono Social Icons Font';
-    src: url('../font/MonoSocialIconsFont-1.10.eot');
-    src: url('../font/MonoSocialIconsFont-1.10.eot?#iefix') format('embedded-opentype'),
-    url('../font/MonoSocialIconsFont-1.10.woff') format('woff'),
-    url('../font/MonoSocialIconsFont-1.10.ttf') format('truetype'),
-    url('../font/MonoSocialIconsFont-1.10.svg#MonoSocialIconsFont') format('svg');
-    src: url('../font/MonoSocialIconsFont-1.10.ttf') format('truetype');
+    font-family: 'socicon';
+    src: url('../font/icon.eot');
+    src: url('../font/icon.eot?#iefix') format('embedded-opentype'),
+    url('../font/icon.woff') format('woff'),
+    url('../font/icon.ttf') format('truetype'),
+    url('../font/icon.svg#sociconregular') format('svg');
     font-weight: normal;
     font-style: normal;
+    text-transform: initial;
 }
 
 .symbol, .symbol:before {
-    font-family: 'Mono Social Icons Font';
-    -webkit-text-rendering: optimizeLegibility;
-    -moz-text-rendering: optimizeLegibility;
-    -ms-text-rendering: optimizeLegibility;
-    -o-text-rendering: optimizeLegibility;
-    text-rendering: optimizeLegibility;
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'socicon';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
     -webkit-font-smoothing: antialiased;
-    -moz-font-smoothing: antialiased;
-    -ms-font-smoothing: antialiased;
-    -o-font-smoothing: antialiased;
-    font-smoothing: antialiased;
 }
 
 ::-webkit-scrollbar {

@@ -33,8 +33,20 @@
         padding: 70px 15%;
     }
 
+    div#about-me section.social div {
+        padding: 0 20px;
+    }
+
     .symbol:before {
-        font-size: 3rem;
+        font-size: 2rem;
+    }
+
+    .symbol-download:before {
+        font-size: 1rem;
+    }
+
+    .symbol-download {
+        margin-right: 0.5em;
     }
 
     section.slide {
