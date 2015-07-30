@@ -51,6 +51,10 @@ button#slider {
     left: 12px;
 }
 
+button#slider:focus {
+    outline: none;
+}
+
 button#slider .slider-bar {
     background-color: #dddddd;
     display: block;
