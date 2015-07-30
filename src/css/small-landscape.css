@@ -1,0 +1,27 @@
+@media all and (orientation: landscape) {
+    header#home {
+        display: none;
+    }
+
+    header#home-landscape {
+        display: inherit !important;
+    }
+
+    header#home-landscape table {
+        margin: auto;
+        width: 100%;
+    }
+
+    header#home-landscape table tr td {
+        padding: 0 9%;
+    }
+
+    header#home-landscape menu {
+        margin-top: 7%;
+    }
+
+    header#home-landscape menu a {
+        display: inline;
+        padding: 1% 5%;
+    }
+}
