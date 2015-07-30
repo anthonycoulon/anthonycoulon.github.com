@@ -8,6 +8,60 @@ header {
 body {
     height: 100%;
 }
+
+nav.slide-menu {
+    height: 100vh;
+    background: black;
+    position: fixed;
+    z-index: 12;
+    width: 0;
+    opacity: 0;
+    transition: 0.2s width, 0.1s opacity;
+}
+
+nav.slide-menu-on {
+    width: 180px;
+    opacity: 1;
+}
+
+nav.slide-menu ul {
+    margin-top: 80px;
+}
+
+nav.slide-menu ul li {
+    margin-top: 25px;
+    list-style-type: none;
+}
+
+nav.slide-menu .img-slide-menu {
+    width: 80px;
+    height: 80px;
+    margin-top: 25px;
+    margin-left: 35px;
+}
+
+button#slider {
+    z-index: 13;
+    position: fixed;
+    border: solid #dddddd 2px;
+    background-color: transparent;
+    padding: 8px 7px;
+    border-radius: 17px;
+    top: 7px;
+    left: 12px;
+}
+
+button#slider .slider-bar {
+    background-color: #dddddd;
+    display: block;
+    width: 20px;
+    height: 2px;
+}
+
+button#slider .slider-bar-o {
+    margin-top: 4px;
+}
+
 header.home {
     background-image: url("../img/board.jpg");
     background-position: center;
@@ -45,46 +99,6 @@ header.home menu a {
 }
 
 header.header-nav {
-    position: fixed;
-    height: 60px;
-    width: 100%;
-    z-index: 10;
-    top: -1px;
-    opacity: 0;
-    transition: opacity 0.4s;
-}
-
-header.header-nav div {
-    background: black;
-    background-size: cover;
-    transition: transform 0.2s;
-    transform: translateY(100%);
-    height: 100%;
-    position: relative;
-}
-
-header.header-nav div.anim {
-    transform: translateY(-26%);
-}
-header.nav-show {
-    opacity: 1;
-}
-header.header-nav menu {
-    display: table;
-    padding: 15px;
-}
-header.header-nav menu a {
-    display: inline-table;
-    margin-left: 10px;
-}
-header.header-nav img.profile {
-    float: left;
-    width: 50px;
-    height: 50px;
-    border: none;
-    margin: 5px;
-}
-header.header-nav h1 {
     display: none;
 }
 

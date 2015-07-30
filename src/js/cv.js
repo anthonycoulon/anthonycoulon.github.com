@@ -41,6 +41,10 @@ Cv.prototype.animate = function() {
         $('.slide').addClass('slide-anim');
         _ret.nbElemShown = $('.slide-anim').length;
     });
+
+    $('button#slider').click(function () {
+        $('.slide-menu').toggleClass('slide-menu-on');
+    });
 };
 
 Cv.prototype.animSlideByHeight = function (heightSlides, nbElemShown) {

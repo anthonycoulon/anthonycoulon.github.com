@@ -24,4 +24,16 @@
         display: inline;
         padding: 1% 5%;
     }
+
+    nav.slide-menu ul {
+        margin-top: 60px;
+    }
+
+    nav.slide-menu ul li {
+        margin-top: 15px;
+    }
+
+    nav.slide-menu .img-slide-menu {
+        margin-top: 15px;
+    }
 }
