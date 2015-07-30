@@ -4,6 +4,10 @@ html {
 header {
     color: #FFF;
 }
+
+body {
+    height: 100%;
+}
 header.home {
     background-image: url("../img/board.jpg");
     background-position: center;
@@ -11,6 +15,7 @@ header.home {
     padding: 3em 0 15px 0;
     transition: -webkit-filter 0.3s;
     -webkit-filter: blur(0px);
+    height: 100vh;
 }
 header.home.blur {
     -webkit-filter: blur(5px);
