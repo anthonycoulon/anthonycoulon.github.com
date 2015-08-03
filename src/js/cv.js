@@ -42,9 +42,8 @@ Cv.prototype.animate = function() {
         _ret.nbElemShown = $('.slide-anim').length;
     });
 
-    $('button#slider').click(function () {
-        $('.slide-menu').toggleClass('slide-menu-on');
-    });
+    $('button#slider').click(this.animSlideMenu);
+    $('.slide-menu ul li a').click(this.closeSlideMenu);
 };
 
 Cv.prototype.animSlideByHeight = function (heightSlides, nbElemShown) {
@@ -59,4 +58,11 @@ Cv.prototype.animSlideByHeight = function (heightSlides, nbElemShown) {
 		}
 	}
 	return {heightSlides: heightSlides, nbElemShown: nbElemShown};
+};
+
+Cv.prototype.animSlideMenu = function () {
+    $('.slide-menu').toggleClass('slide-menu-on');
+};
+Cv.prototype.closeSlideMenu = function () {
+    $('.slide-menu').removeClass('slide-menu-on');
 };
