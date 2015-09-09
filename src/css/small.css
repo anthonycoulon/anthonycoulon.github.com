@@ -65,6 +65,14 @@ button#slider .slider-bar-o {
     margin-top: 4px;
 }
 
+.link-landscape {
+    display: none;
+}
+
+.link-portrait {
+    display: inherit;
+}
+
 header.home {
     background-image: url("../img/board.jpg");
     background-position: center;

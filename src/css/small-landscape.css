@@ -42,6 +42,14 @@
         padding: 0 10px;
     }
 
+    .link-landscape {
+        display: inherit !important;
+    }
+
+    .link-portrait {
+        display: none !important;
+    }
+
     .symbol:before {
         content: attr(title);
         margin-right: 0.3em;
