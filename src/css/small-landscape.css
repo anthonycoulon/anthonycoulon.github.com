@@ -36,4 +36,19 @@
     nav.slide-menu .img-slide-menu {
         margin-top: 15px;
     }
+
+    div#about-me section.social div {
+        display: inline-table;
+        padding: 0 10px;
+    }
+
+    .symbol:before {
+        content: attr(title);
+        margin-right: 0.3em;
+        font-size: 1.7rem;
+    }
+
+    .symbol-download:before {
+        font-size: 1rem;
+    }
 }

@@ -123,7 +123,7 @@ div#about-me section.social {
 }
 div#about-me section.social div {
     display: inline-table;
-    padding: 0 10px;
+    padding: 0 5px;
 }
 
 td.symbol:before {
@@ -133,7 +133,7 @@ td.symbol:before {
 .symbol:before {
     content: attr(title);
     margin-right: 0.3em;
-    font-size: 1.7rem;
+    font-size: 1.53rem;
 }
 
 .symbol-download:before {
