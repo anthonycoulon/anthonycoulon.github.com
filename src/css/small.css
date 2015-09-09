@@ -122,15 +122,22 @@ div#about-me p {
     margin: 20px auto 50px auto;
     text-align: justify;
 }
+
+section.social {
+    display: table;
+    text-align: center;
+    width: 100%;
+}
 div#about-me section.social {
     padding: 20px 0 10px 0;
     border-top: 1px solid grey;
-    display: table;
-    width: 100%;
-    text-align: center;
 }
-div#about-me section.social div {
+
+section.social div {
     display: inline-table;
+}
+
+div#about-me section.social div {
     padding: 0 5px;
 }
 
@@ -150,6 +157,17 @@ td.symbol:before {
 
 .symbol-download {
     margin-right: 0.5em;
+}
+
+section.link-contact {
+    display: table;
+    text-align: center;
+    width: 100%;
+}
+
+section.link-contact h2 {
+    display: inline-block;
+    padding: 0 30px;
 }
 
 div.content {
@@ -193,4 +211,15 @@ footer div {
 
 footer div, footer div a {
     font-size: 0.7rem;
+}
+
+footer .social .symbol:before {
+    content: attr(title);
+    margin-right: 0.3em;
+    font-size: 1.0rem;
+}
+
+footer section.social div {
+    margin: 25px 0 5px 0;
+    padding: 0 8px;
 }
