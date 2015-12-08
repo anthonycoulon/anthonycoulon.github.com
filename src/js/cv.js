@@ -9,13 +9,6 @@ Cv.prototype.animate = function() {
 	var slides = $('.slide');
     $(window).scroll(bind(this, function () {
 
-        if($(window).scrollTop()>$('header.home').height()/5) {
-            $('#about-me').addClass('no-blur');
-            $('header.home').addClass('blur');
-        }else {
-            $('header.home').removeClass('blur');
-        }
-
         if(_ret.heightSlides<$(window).scrollTop()+$(window).height()) {
             _ret.heightSlides+=$(slides[_ret.nbElemShown]).height();
             $(slides[_ret.nbElemShown]).addClass('slide-anim');
@@ -33,7 +26,6 @@ Cv.prototype.animate = function() {
         if($(window).scrollTop()==0) {
             $('.slide').removeClass('slide-anim');
             _ret = this.animSlideByHeight(heightBeforeSlides, nbElemShownBeforeSlides);
-            $('#about-me').removeClass('no-blur');
         }
     }));
 
