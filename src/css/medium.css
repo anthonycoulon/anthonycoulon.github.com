@@ -66,11 +66,11 @@
         transition: transform 1s;
     }
 
-    section.slide p, section.slide h2 {
+    section.slide p, section.slide h2, section.slide h4 {
         opacity: 0;
     }
 
-    section.slide-anim p, section.slide-anim h2 {
+    section.slide-anim p, section.slide-anim h2, section.slide-anim h4 {
         opacity: 1;
         transition: opacity 2s;
     }
