@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<title>Welcome Julia</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<style type="text/css">
+			body {
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>
+			Julia Lucie Coulon
+		</h1>
+		<h2>
+			arrivera approximativement dans :
+		</h2>
+		<h1 id="time"></h1>
+		<h4>... et elle vous dit à très bientôt !</h4>
+		<script type="text/javascript">
+			setInterval(function() {
+				var today = new Date();
+				var birthDate = new Date(2018,0,15);
+				var secondes = Math.trunc((birthDate-today)/1000);
+				var minutes = Math.trunc((birthDate-today)/1000/60);
+				var hours = Math.trunc((birthDate-today)/1000/60/60);
+				var days = Math.trunc((birthDate-today)/1000/60/60/24);
+				$('h1#time').html(days+' jours<br/>'+hours+' heures<br/>'+minutes+' minutes<br/>'+secondes+' secondes');
+			}, 1000);
+
+		</script>
+	</body>
+</html>
