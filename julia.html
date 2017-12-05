@@ -6,6 +6,15 @@
 			body {
 				text-align: center;
 			}
+			h1 {
+				font-size: 7vh;	
+			}
+			h2 {
+				font-size: 5.2vh;
+			}
+			h4 {
+				font-size: 3.5vh;
+			}
 		</style>
 	</head>
 	<body>
@@ -25,7 +34,7 @@
 				var minutes = Math.trunc((birthDate-today)/1000/60);
 				var hours = Math.trunc((birthDate-today)/1000/60/60);
 				var days = Math.trunc((birthDate-today)/1000/60/60/24);
-				$('h1#time').html(days+' jours<br/>'+hours+' heures<br/>'+minutes+' minutes<br/>'+secondes+' secondes');
+				$('#time').html(days+' jours<br/>'+hours+' heures<br/>'+minutes+' minutes<br/>'+secondes+' secondes');
 			}, 1000);
 
 		</script>
