@@ -74,11 +74,12 @@ button#slider .slider-bar-o {
 }
 
 header.home {
-    background-image: url("../img/board.jpg");
-    background-position: center;
+    background-image: url("../img/coffee-cup.jpeg");
+    background-size: cover;
     text-align: center;
     padding: 3em 0 15px 0;
     height: 100vh;
+    text-shadow: 1px 1px black;
 }
 
 header.home h1 {
@@ -182,7 +183,7 @@ section.slide {
 
 section.slide h2 {
     width: 100%;
-    border-bottom: 6px #009cda solid;
+    border-bottom: 6px #c1c1c1 solid;
     opacity: 1;
 }
 section.slide p {
