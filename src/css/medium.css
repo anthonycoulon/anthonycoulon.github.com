@@ -7,7 +7,7 @@
         padding-left: calc( ( 100% - 620px ) / 2 );
         padding-right: calc( ( 100% - 620px ) / 2 );
         background-size: cover;
-        background-position: inherit;
+        background-position: center;
     }
 
     header.home h1 {

@@ -75,8 +75,10 @@ button#slider .slider-bar-o {
 }
 
 header.home {
-    background-image: url("../img/coffee-cup.jpeg");
+    background-image: url("../img/fond_canard.jpg");
     background-size: cover;
+    background-position-x: 750px;
+    background-position-y: center;
     text-align: center;
     padding: 3em 0 15px 0;
     height: 100vh;

@@ -8,7 +8,7 @@
         padding-right: calc( ( 100% - 1000px ) / 2 );
         padding-bottom: 0;
         background-size: cover;
-        background-position: inherit;
+        background-position: center;
         transition: -webkit-filter 0.5s;
     }
 
