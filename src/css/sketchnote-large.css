@@ -7,6 +7,10 @@
         display: none;
     }
 
+    header.title {
+        padding-top: 60px !important;
+    }
+
     header.header-nav {
         position: fixed;
         height: 60px;
@@ -20,7 +24,6 @@
         background-size: cover;
         height: 100%;
     }
-
 
     header.header-nav menu {
         display: table;
