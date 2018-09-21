@@ -1,0 +1,136 @@
+html {
+    scroll-behavior: smooth;
+}
+header {
+    color: #FFF;
+}
+
+body {
+    height: 100%;
+    background-color: white;
+}
+
+nav.slide-menu {
+    height: 100vh;
+    background: black;
+    position: fixed;
+    z-index: 12;
+    width: 0;
+    display: none;
+}
+
+nav.slide-menu-on {
+    width: 180px;
+    display: inherit;
+}
+
+nav.slide-menu ul {
+    margin-top: 80px;
+}
+
+nav.slide-menu ul li {
+    margin-top: 25px;
+    list-style-type: none;
+}
+
+nav.slide-menu .img-slide-menu {
+    width: 80px;
+    height: 80px;
+    margin-top: 25px;
+    margin-left: 35px;
+}
+
+
+button#slider {
+    z-index: 13;
+    position: fixed;
+    border: solid #dddddd 2px;
+    background-color: transparent;
+    padding: 8px 7px;
+    border-radius: 17px;
+    top: 7px;
+    left: 12px;
+}
+
+button#slider:focus {
+    outline: none;
+}
+
+button#slider .slider-bar {
+    background-color: #dddddd;
+    display: block;
+    width: 20px;
+    height: 2px;
+}
+
+button#slider .slider-bar-o {
+    margin-top: 4px;
+}
+
+.link-portrait {
+    display: inherit;
+}
+
+img.profile {
+    border-radius: 100%;
+    box-shadow: 0 0 60px #333;
+}
+
+header.header-nav {
+    display: none;
+}
+
+section#sketchnote {
+    margin: auto;
+    width: 90%;
+    padding-top: 60px;
+}
+section#sketchnote span img{
+    padding: 10px;
+}
+
+section#sketchnote div span img{
+    width: 295px;
+    height: 210px;
+}
+
+section#sketchnote div {
+    width: 360px;
+    margin: auto;
+}
+
+footer {
+    padding: 30px 30px 15px 30px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+footer div {
+    margin-top: 12px;
+}
+
+footer div, footer div a {
+    font-size: 0.7rem;
+}
+
+footer .social .symbol:before {
+    content: attr(title);
+    margin-right: 0.3em;
+    font-size: 1.0rem;
+}
+
+footer section.social div {
+    margin: 25px 0 5px 0;
+    padding: 0 8px;
+}
+
+section.social {
+    display: table;
+    text-align: center;
+    width: 100%;
+}
+
+section.social div {
+    display: inline-table;
+}
