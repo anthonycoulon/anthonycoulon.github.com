@@ -52,4 +52,8 @@
         width: 960px !important;
         margin: auto;
     }
+
+    section#sketchnote div span .date {
+        top: 10px !important;
+    }
 }
