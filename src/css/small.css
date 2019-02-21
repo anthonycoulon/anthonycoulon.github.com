@@ -127,6 +127,10 @@ div#about-me p {
     text-align: justify;
 }
 
+section.twitter {
+    text-align: center;
+}
+
 section.social {
     display: table;
     text-align: center;
