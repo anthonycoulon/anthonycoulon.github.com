@@ -1,0 +1,10 @@
+#article {
+    width: 80%;
+    margin: auto;
+    min-height: 45vh;
+}
+
+#article a {
+    color: #DA4453;
+}
+
