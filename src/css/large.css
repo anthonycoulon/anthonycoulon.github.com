@@ -12,6 +12,11 @@
         transition: -webkit-filter 0.5s;
     }
 
+    header#home-landscape menu a {
+        display: inline;
+        padding: 1% 4%;
+    }
+
     header.home img.profile {
         width: 250px;
         height: 250px;

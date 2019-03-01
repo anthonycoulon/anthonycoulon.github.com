@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/main.css"/>
+    <link rel="stylesheet" href="src/css/sketchnote-large.css"/>
+    <link rel="stylesheet" href="src/css/sketchnote-small.css"/>
+
+    <script type="text/javascript" src="src/js/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" src="src/js/Bind.js"></script>
+    <script type="text/javascript" src="src/js/cv.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109060302-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-109060302-2');
+    </script>
+
+</head>
+<body>
+<button type="button" id="slider">
+    <span class="slider-bar"></span>
+    <span class="slider-bar slider-bar-o"></span>
+    <span class="slider-bar slider-bar-o"></span>
+</button>
+<nav class="slide-menu">
+    <ul>
+        <li>
+            <a href="index.html#home" class="link-portrait">Accueil</a>
+        </li>
+        <li>
+            <a href="index.html#about-me">A propos de moi</a>
+        </li>
+        <li>
+            <a href="index.html#content">Exp&eacute;riences</a>
+        </li>
+        <li>
+            <a href="sketchnote.html">Sketchnotes</a>
+        </li>
+        <li>
+            <a href="article.html">Articles</a>
+        </li>
+    </ul>
+    <img class="profile img-slide-menu" src="src/img/profil.jpeg" alt=""/>
+</nav>
+<header class="header-nav">
+    <div>
+        <img class="profile" src="src/img/profil.jpeg" alt=""/>
+
+        <h1>
+            Anthony Coulon
+        </h1>
+        <menu>
+            <a href="index.html#home-landscape">Accueil</a>
+            <a href="index.html#about-me">Moi</a>
+            <a href="index.html#content">Exp&eacute;riences</a>
+            <a href="sketchnote.html">Sketchnotes</a>
+            <a href="article.html">Articles</a>
+        </menu>
+    </div>
+</header>
+<header class="title">
+    <h1>ARTICLES</h1>
+</header>
+
+<br>
+
+<footer>
+    <div>
+        <a href="index.html#home">Accueil</a>
+        &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+        <a href="index.html#about-me">A propos de moi</a>
+        &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+        <a href="index.html#content">Expériences</a>
+        &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+        <a href="sketchnote.html">Sketchnotes</a>
+        &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+        <a href="article.html">Articles</a>
+    </div>
+    <div>
+        <a href="src/doc/cv.pdf">Télécharger CV</a>
+    </div>
+    <div>
+        <a href="mailto:coulon.anthony@gmail.com">Contactez moi</a>
+    </div>
+    <section class="social">
+        <div>
+            <a href="http://www.facebook.com/Anthony.Coulon" class="symbol" title="b"></a>
+        </div>
+        <div>
+            <a href="http://twitter.com/anthonycoulon" class="symbol" title="a"></a>
+        </div>
+        <div>
+            <a href="http://plus.google.com/104732709155659543619" class="symbol" title="c"></a>
+        </div>
+        <div>
+            <a href="https://github.com/anthonycoulon/" class="symbol" title="Q"></a>
+        </div>
+        <div>
+            <a href="https://fr.linkedin.com/pub/anthony-coulon/105/301/274" class="symbol" title="j"></a>
+        </div>
+        <div>
+            <a href="http://www.viadeo.com/profile/002b16zso39yg7h" class="symbol" title="k"></a>
+        </div>
+    </section>
+    <div>
+        &copy; Anthony Coulon
+    </div>
+</footer>
+<script type="text/javascript">
+    new Cv().animate();
+</script>
+</body>
+</html>
