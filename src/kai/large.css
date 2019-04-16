@@ -1,0 +1,51 @@
+@media only screen and (min-width: 64.063em) {
+
+    html {
+        font-size: 130%;
+    }
+
+    button#slider, nav.slide-menu {
+        display: none;
+    }
+
+    header.header-nav {
+        position: fixed;
+        height: 60px;
+        width: 100%;
+        transform: translateY(-35%);
+        display: block !important;
+    }
+    header.header-nav div {
+        background: black;
+        background-size: cover;
+        height: 100%;
+    }
+
+    header.header-nav menu {
+        display: table;
+        padding: 15px;
+    }
+
+    header.header-nav menu a {
+        display: inline-table;
+        margin-left: 20px;
+    }
+    header.header-nav img.profile {
+        width: 60px;
+        height: 60px;
+        margin: 5px;
+        float: left;
+    }
+    header.header-nav h1 {
+        font-size: 1rem;
+        float: left;
+        padding: 15px;
+        margin: 0;
+    }
+
+    header.home img {
+        width: 800px;
+    }
+
+}
+
