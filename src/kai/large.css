@@ -43,8 +43,22 @@
         margin: 0;
     }
 
-    header.home img {
-        width: 800px;
+    header.home video {
+        display: inherit;
+    }
+
+    header.home img.kai_logo {
+        width: 750px;
+        top: -50px;
+    }
+
+    img.zenika_logo {
+        width: 150px;
+        bottom: 50px;
+    }
+    img.znk_logo {
+        width: 125px;
+        bottom: 100px;
     }
 
 }

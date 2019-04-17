@@ -73,7 +73,7 @@ header.header-nav {
 }
 
 header.home {
-    background: white;
+    background: black;
     height: 100vh;
 }
 
@@ -84,6 +84,7 @@ header.home video{
     min-width: 100%;
     min-height: 100%;
     z-index: 1;
+    display: none;
 }
 
 header.home img {
@@ -91,8 +92,21 @@ header.home img {
     left: 0;
     right: 0;
     margin: auto;
-    width: 400px;
     z-index: 2;
+}
+
+header.home img.kai_logo {
+    width: 400px;
+    top: 50px;
+}
+
+img.zenika_logo {
+    width: 100px;
+    bottom: 160px;
+}
+img.znk_logo {
+    width: 100px;
+    bottom: 200px;
 }
 
 section.team {
