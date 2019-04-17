@@ -76,6 +76,8 @@ header.home {
     background: black;
     background-image:linear-gradient(grey, black);
     height: 100vh;
+    min-height: 675px;
+    position: relative;
 }
 
 header.home video{
@@ -103,11 +105,11 @@ header.home img.kai_logo {
 
 img.zenika_logo {
     width: 100px;
-    bottom: 160px;
+    bottom: 20px;
 }
 img.znk_logo {
     width: 100px;
-    bottom: 200px;
+    bottom: 50px;
 }
 
 section.team {
