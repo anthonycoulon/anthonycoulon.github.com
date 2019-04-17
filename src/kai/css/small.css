@@ -130,6 +130,10 @@ div.offer_content {
     width: 80%;
 }
 
+div.offer_content h2 {
+    margin-left: 50px;
+}
+
 section.offer img {
     width: 200px;
     position: absolute;
