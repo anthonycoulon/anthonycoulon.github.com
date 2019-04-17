@@ -43,6 +43,10 @@
         margin: 0;
     }
 
+    header.home {
+        min-height: 675px;
+    }
+
     header.home video {
         display: inherit;
     }

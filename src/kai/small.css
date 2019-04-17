@@ -76,7 +76,7 @@ header.home {
     background: black;
     background-image:linear-gradient(grey, black);
     height: 100vh;
-    min-height: 675px;
+    min-height: 500px;
     position: relative;
 }
 
