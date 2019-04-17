@@ -119,19 +119,18 @@ section.team {
 }
 
 section.offer {
-
     padding: 50px 0;
     min-height: 500px;
     background: url("sailing-3818503_1920.jpg") center;
     color: black;
+    position: relative;
 }
 div.offer_content {
     margin: auto;
     width: 80%;
-    position: relative;
 }
 
-div.offer_content img {
+section.offer img {
     width: 200px;
     position: absolute;
     left: 0;
