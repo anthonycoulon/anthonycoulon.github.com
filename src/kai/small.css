@@ -74,6 +74,7 @@ header.header-nav {
 
 header.home {
     background: black;
+    background-image:linear-gradient(grey, black);
     height: 100vh;
 }
 
