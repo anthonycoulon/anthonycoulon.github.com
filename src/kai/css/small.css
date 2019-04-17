@@ -1,0 +1,190 @@
+
+html {
+    scroll-behavior: smooth;
+}
+header {
+    color: #FFF;
+}
+
+body {
+    height: 100%;
+}
+
+nav.slide-menu {
+    height: 100vh;
+    background: black;
+    position: fixed;
+    z-index: 12;
+    width: 0;
+    display: none;
+}
+
+nav.slide-menu-on {
+    width: 180px;
+    display: inherit;
+}
+
+nav.slide-menu ul {
+    margin-top: 80px;
+}
+
+nav.slide-menu ul li {
+    margin-top: 25px;
+    list-style-type: none;
+}
+
+nav.slide-menu .img-slide-menu {
+    width: 80px;
+    height: 80px;
+    margin-top: 25px;
+    margin-left: 35px;
+}
+
+
+button#slider {
+    z-index: 13;
+    position: fixed;
+    border: solid #dddddd 2px;
+    background-color: transparent;
+    padding: 8px 7px;
+    border-radius: 17px;
+    top: 7px;
+    left: 12px;
+}
+
+button#slider:focus {
+    outline: none;
+}
+
+button#slider .slider-bar {
+    background-color: #dddddd;
+    display: block;
+    width: 20px;
+    height: 2px;
+}
+
+button#slider .slider-bar-o {
+    margin-top: 4px;
+}
+
+header.header-nav {
+    display: none;
+    z-index: 30;
+}
+
+header.home {
+    background: black;
+    background-image:linear-gradient(grey, black);
+    height: 100vh;
+    min-height: 500px;
+    position: relative;
+}
+
+header.home video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 1;
+    display: none;
+}
+
+header.home img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 2;
+}
+
+header.home img.kai_logo {
+    width: 400px;
+    top: 50px;
+}
+
+img.zenika_logo {
+    width: 100px;
+    bottom: 70px;
+}
+img.znk_logo {
+    width: 100px;
+    bottom: 110px;
+}
+
+section.team {
+    margin: auto;
+    width: 80%;
+    padding: 50px 0;
+}
+
+section.offer {
+    padding: 50px 0;
+    min-height: 500px;
+    background: url("../img/sailing-3818503_1920.jpg") center;
+    color: black;
+    position: relative;
+}
+div.offer_content {
+    margin: auto;
+    width: 80%;
+}
+
+section.offer img {
+    width: 200px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section.calendar {
+    margin: auto;
+    width: 80%;
+    padding: 50px 0;
+}
+
+section.calendar table {
+    width: 100%;
+}
+
+section.calendar table td {
+    padding: 5px;
+}
+
+section.twitter {
+    padding: 50px 0;
+    text-align: center;
+    background: white;
+    color: black;
+}
+
+div.twitter_content {
+    margin: auto;
+    width: 60%;
+}
+
+footer {
+    padding: 30px 30px 15px 30px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+footer div {
+    margin-top: 12px;
+}
+
+footer div, footer div a {
+    font-size: 0.7rem;
+}
+
+footer img {
+    width: 150px;
+}
+
+.red {
+    color: rgb(178, 30, 62);
+}
