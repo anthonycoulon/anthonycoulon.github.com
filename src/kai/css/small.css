@@ -158,6 +158,35 @@ section.calendar table td {
     padding: 5px;
 }
 
+section.contact {
+    padding: 50px 0;
+    width: 80%;
+    margin: auto;
+}
+
+section.contact input, section.contact textarea {
+    color: black;
+    margin: 10px 10px 20px 10px;
+    width: 400px;
+}
+
+section.contact form {
+    margin: auto;
+    width: 70%;
+}
+span.error {
+    color: rgb(178, 30, 62);
+    font-size: 0.8rem;
+}
+
+section.contact form #send {
+    background: rgb(178, 30, 62);
+    border-radius: 10px;
+    width: 130px;
+    border: none;
+    color: white;
+}
+
 section.twitter {
     padding: 50px 0;
     text-align: center;
