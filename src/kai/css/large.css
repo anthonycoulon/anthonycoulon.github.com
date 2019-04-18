@@ -65,5 +65,9 @@
         bottom: 100px;
     }
 
+    section.contact input, section.contact textarea {
+        width: 500px;
+    }
+
 }
 

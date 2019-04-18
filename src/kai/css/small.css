@@ -167,7 +167,7 @@ section.contact {
 section.contact input, section.contact textarea {
     color: black;
     margin: 10px 10px 20px 10px;
-    width: 400px;
+    width: 250px;
 }
 
 section.contact form {
@@ -185,6 +185,9 @@ section.contact form #send {
     width: 130px;
     border: none;
     color: white;
+}
+section.contact form #send:focus {
+    outline: none;
 }
 
 section.twitter {
