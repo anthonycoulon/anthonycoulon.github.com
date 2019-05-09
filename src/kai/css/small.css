@@ -246,4 +246,5 @@ section#content {
 section#content div {
     margin: auto;
     width: 90%;
+    color: black;
 }
