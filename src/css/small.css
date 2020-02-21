@@ -154,7 +154,6 @@ td.symbol:before {
 }
 
 .symbol:before {
-    content: attr(title);
     margin-right: 0.3em;
     font-size: 1.53rem;
 }
@@ -222,7 +221,6 @@ footer div, footer div a {
 }
 
 footer .social .symbol:before {
-    content: attr(title);
     margin-right: 0.3em;
     font-size: 1.0rem;
 }
